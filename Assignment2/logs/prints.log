@@ -1,0 +1,5 @@
+13:24:53.934 [main] INFO  com.uniqlo.Assignment2.Resources.Base - Verifying Opening page Goibibo
+13:24:53.960 [main] INFO  com.uniqlo.Assignment2.Resources.Base - Verifying Entering required details Goibibo
+13:24:58.895 [main] INFO  com.uniqlo.Assignment2.Resources.Base - Verifying entering to search for the trip
+13:24:58.896 [main] INFO  com.uniqlo.Assignment2.Resources.Base - Verifying Showing trip details Goibibo
+13:25:04.823 [main] INFO  com.uniqlo.Assignment2.Resources.Base - Verifying trip with less price and book for the trip

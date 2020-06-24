@@ -1,0 +1,84 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-21T07:54:33.807Z",
+        "line": 16,
+        "name": "Book Flight for one way trip",
+        "description": "",
+        "id": "book-flight-ticket;book-flight-for-one-way-trip;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19936000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigating to the flight boooking page of Goibibo",
+            "match": {
+              "location": "StepDefinitions.StepDefinition.navigating_to_the_flight_boooking_page_of_Goibibo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4939000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Entering \"Chennai\" and \"Kochi\" and Searching for the trip details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"Kochi\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitions.StepDefinition.entering_and_and_Searching_for_the_trip_details(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7957000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Shows the details of the trip with booking option",
+            "match": {
+              "location": "StepDefinitions.StepDefinition.shows_the_details_of_the_trip_with_booking_option()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataDrivenTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Book Flight Ticket",
+    "description": "Navigating to the Flight Booking Page\nChecking with low price for the destined location\nBook the ticket and reviewing the page",
+    "id": "book-flight-ticket",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/test.feature",
+    "tags": [
+      {
+        "name": "@DataDrivenTesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
